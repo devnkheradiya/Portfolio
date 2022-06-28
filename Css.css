@@ -127,9 +127,15 @@ hr {
     padding-block-end: 1rrem;
 }
 
+.para
+{
+    text-align: center;
+    transition: ease-in;
+}
 
 
-/* footer */
+
+/* footer
 
 .footer
 {
@@ -148,10 +154,7 @@ hr {
 .ow .work
 {
     text-align: center;
-}
-
-/* .msg
-{
-    ;
 } */
+
+
 
