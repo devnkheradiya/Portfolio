@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #64748b;
-    --off-white: #f1f5f9;
+    --off-white: #d0e3ed;
 }
 
 body {
@@ -115,6 +115,9 @@ hr {
 
 .section{
     padding: 2rem;
+   
+    
+    
 }
 .section h3 {
     text-align: center;
@@ -124,7 +127,11 @@ hr {
 .ow
 {
     background-color: var(--off-white);
-    padding-block-end: 1rrem;
+    padding-block-end: 1rem;
+    box-shadow: rgba(18, 114, 163, 0.56) 0px 22px 70px 4px;
+    /* border-left: 1px solid white; */
+    /* box-shadow: 0 0 10px 5px; */
+  
 }
 
 .para
@@ -155,6 +162,72 @@ hr {
 {
     text-align: center;
 } */
+
+
+/* footer */
+
+.footer{
+    /* position: absolute; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    background: #000000;
+    /* height: auto; */
+    text-align: center;
+    /* padding-bottom: 0; */
+    color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1rem;
+}
+.footer-content p{
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.facebook
+{
+  height: 25px;
+  width: 25px;
+  margin: 0.5rem;
+}
+
+/* .footer .h3
+{
+  font-family: myFirstfont;
+  src:url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Varela+Round&display=swap');
+  
+} */
+
+.footer .footer-content .fo {
+    font-weight: bold;
+    
+}
+
+
 
 
 
